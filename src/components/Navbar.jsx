@@ -27,7 +27,7 @@ function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="hero" smooth={true} duration={500} className="navbar-logo">
-          {'<Rafa />'}
+          {'<Rafareza/>'}
         </Link>
 
         <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>

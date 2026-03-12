@@ -7,7 +7,7 @@ const roles = [
   'Frontend Web Developer',
   'UI/UX Enthusiast',
   'React Developer',
-  'Creative Coder',
+  'Vibe Coder',
 ];
 
 function Hero() {
@@ -64,7 +64,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
         >
-          Rafa Rezandrya <span className="highlight">Jaelani</span>
+           <span className="highlight">Rafa Rezandrya Jaelani</span>
         </motion.h1>
 
         <motion.div
@@ -83,7 +83,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          Mahasiswa semester akhir Sistem Informasi di Universitas Gunadarma.
+          Final semester student majoring in information systems at Gunadarma University.
           Passionate about creating beautiful, interactive, and user-friendly web experiences.
         </motion.p>
 
@@ -98,7 +98,7 @@ function Hero() {
               View My Work <FiArrowDown />
             </button>
           </Link>
-          <a href="#" className="btn-outline">
+          <a href="https://drive.google.com/file/d/1sclLaK5Yb3wz-ByU4UM3yqCsUX90wfDK/view" className="btn-outline" target="_blank">
             <FiDownload /> Download CV
           </a>
         </motion.div>

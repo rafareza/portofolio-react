@@ -10,32 +10,30 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaInstagram,
-  FaWhatsapp,
 } from 'react-icons/fa';
 
 const contactDetails = [
   {
     icon: <FiMail />,
     label: 'Email',
-    value: 'rafarezandrya@gmail.com',
+    value: ' rafa.rezandrya08@gmail.com',
   },
   {
     icon: <FiMapPin />,
     label: 'Location',
-    value: 'Bekasi, Indonesia',
+    value: ' Bekasi, Indonesia',
   },
   {
     icon: <FiPhone />,
     label: 'Phone',
-    value: '+62 xxx-xxxx-xxxx',
+    value: ' +6285894109114',
   },
 ];
 
 const socials = [
-  { icon: <FaGithub />, href: 'https://github.com/', label: 'GitHub' },
-  { icon: <FaLinkedinIn />, href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { icon: <FaInstagram />, href: 'https://instagram.com/', label: 'Instagram' },
-  { icon: <FaWhatsapp />, href: 'https://wa.me/', label: 'WhatsApp' },
+  { icon: <FaGithub />, href: 'https://github.com/rafareza', label: 'GitHub' },
+  { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/rafa-rezandrya-jaelani-070137391', label: 'LinkedIn' },
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/rafa.reza_/', label: 'Instagram' },
 ];
 
 function Contact() {
@@ -52,7 +50,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:rafarezandrya@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:rafa.rezandrya08@gmail.com?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`

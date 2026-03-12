@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
-import { FiMapPin, FiBook, FiUser, FiCalendar } from 'react-icons/fi';
+import { FiMapPin, FiBook, FiUser, FiStar } from 'react-icons/fi';
+import fotoImg from '../assets/r1.jpeg';
 
 const infoItems = [
   { icon: <FiUser />, label: 'Nama', value: 'Rafa Rezandrya Jaelani' },
   { icon: <FiBook />, label: 'Jurusan', value: 'Sistem Informasi' },
   { icon: <FiMapPin />, label: 'Domisili', value: 'Bekasi, Indonesia' },
-  { icon: <FiCalendar />, label: 'Semester', value: 'Semester Akhir' },
+  { icon: <FiStar />, label: 'GPA', value: '3.72 / 4.00' },
 ];
 
 function About() {
@@ -47,9 +48,10 @@ function About() {
               justifyContent: 'center',
               fontSize: '5rem',
               color: 'white',
+              borderRadius: '20px',
             }}
           >
-            👨‍💻
+            <img src={fotoImg} alt="foto" style={{ borderRadius: '20px' }} />
           </div>
         </motion.div>
 

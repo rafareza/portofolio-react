@@ -10,9 +10,9 @@ const quickLinks = [
 ];
 
 const socials = [
-  { icon: <FaGithub />, href: 'https://github.com/', label: 'GitHub' },
-  { icon: <FaLinkedinIn />, href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { icon: <FaInstagram />, href: 'https://instagram.com/', label: 'Instagram' },
+  { icon: <FaGithub />, href: 'https://github.com/rafareza', label: 'GitHub' },
+  { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/rafa-rezandrya-jaelani-070137391', label: 'LinkedIn' },
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/rafa.reza_/', label: 'Instagram' },
 ];
 
 function Footer() {
@@ -22,7 +22,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <div className="footer-logo">{'<Rafa />'}</div>
+          <div className="footer-logo">{'<Rafareza />'}</div>
           <p>
             Frontend Web Developer yang passionate dalam membangun web experience
             yang indah dan interaktif. Selalu siap belajar dan berkembang.
@@ -53,7 +53,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© {currentYear} Rafa Rezandrya Jaelani. All rights reserved.</span>
+        <span>© {2026} Rafa Rezandrya Jaelani. All rights reserved.</span>
         <div className="footer-bottom-socials">
           {socials.map((social, idx) => (
             <a
