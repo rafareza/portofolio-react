@@ -10,7 +10,6 @@ const projects = [
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
     emoji: '🧠',
     github: '#',
-    live: '#',
   },
   {
     title: 'Acacia Water',
@@ -23,14 +22,13 @@ const projects = [
     live: 'https://acacia-water.vercel.app/',
   },
   {
-    title: 'Website Dashboard Admin Sekolah',
+    title: 'Website Bunga Indah',
     description:
-      'Website admin sekolah untuk mengelola data siswa, guru, dan mata pelajaran.',
+      'Website untuk penjualan dan pembelian bunga di toko Bunga Indah.',
     tags: ['PHP', 'MySQL', 'Bootstrap'],
     gradient: 'linear-gradient(135deg, #22d3ee, #06b6d4)',
-    emoji: '🏫',
-    github: '#',
-    live: '#',
+    emoji: '💐',
+    github: 'https://github.com/rafareza/bunga-indah',
   },
   {
     title: 'Portfolio Website',
@@ -110,15 +108,17 @@ function Projects() {
                     <FiGithub />
                   </a>
                 )}
-                <a
-                  href={project.live}
-                  className="project-overlay-btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="View live demo"
-                >
-                  <FiExternalLink />
-                </a>
+                {project.live && (
+                  <a
+                    href={project.live}
+                    className="project-overlay-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View live demo"
+                  >
+                    <FiExternalLink />
+                  </a>
+                )}
               </div>
             </div>
 
