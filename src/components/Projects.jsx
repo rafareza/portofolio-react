@@ -23,7 +23,7 @@ const projects = [
     live: 'https://acacia-water.vercel.app/',
   },
   {
-    title: 'Website Admin Sekolah',
+    title: 'Website Dashboard Admin Sekolah',
     description:
       'Website admin sekolah untuk mengelola data siswa, guru, dan mata pelajaran.',
     tags: ['PHP', 'MySQL', 'Bootstrap'],
@@ -39,8 +39,17 @@ const projects = [
     tags: ['React', 'Framer Motion', 'Vite', 'CSS3'],
     gradient: 'linear-gradient(135deg, #f59e0b, #f97316)',
     emoji: '🚀',
-    github: '#',
+    github: 'https://github.com/rafareza/portofolio-react',
     live: '#',
+  },
+  {
+    title: 'Design UI/UX Jacoffee',
+    description:
+      'Merancang tampilan antarmuka (UI) dan pengalaman pengguna (UX) untuk toko kopi Jacoffee dengan menggunakan Figma.',
+    tags: ['Figma'],
+    gradient: 'linear-gradient(135deg, #36291341, #21160b99)',
+    emoji: '🎨',
+    live: 'https://bit.ly/jacoffee',
   },
 ];
 
@@ -90,15 +99,17 @@ function Projects() {
                 {project.emoji}
               </div>
               <div className="project-overlay">
-                <a
-                  href={project.github}
-                  className="project-overlay-btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="View source code"
-                >
-                  <FiGithub />
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    className="project-overlay-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View source code"
+                  >
+                    <FiGithub />
+                  </a>
+                )}
                 <a
                   href={project.live}
                   className="project-overlay-btn"

@@ -24,8 +24,7 @@ function Footer() {
         <div className="footer-brand">
           <div className="footer-logo">{'<Rafareza />'}</div>
           <p>
-            Frontend Web Developer yang passionate dalam membangun web experience
-            yang indah dan interaktif. Selalu siap belajar dan berkembang.
+            Seorang mahasiswa semester akhir jurusan Sistem Informasi Universitas Gunadarma yang memiliki ketertarikan pada pengembangan web dan teknologi.
           </p>
         </div>
 
