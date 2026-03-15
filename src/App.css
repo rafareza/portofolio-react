@@ -579,6 +579,124 @@
 }
 
 /* ===========================
+   CERTIFICATES
+   =========================== */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-xl);
+}
+
+.certificate-card {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition-base);
+}
+
+.certificate-card:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-6px);
+}
+
+.certificate-thumbnail {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: var(--transition-slow);
+}
+
+.certificate-card:hover .certificate-thumbnail {
+  transform: scale(1.05);
+}
+
+.certificate-thumbnail-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.certificate-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 14, 26, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  opacity: 0;
+  transition: var(--transition-base);
+}
+
+.certificate-card:hover .certificate-overlay {
+  opacity: 1;
+}
+
+.certificate-overlay-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: var(--transition-base);
+}
+
+.certificate-overlay-btn:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-glow);
+}
+
+.certificate-info {
+  padding: var(--space-lg);
+}
+
+.certificate-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 0.25rem 0.75rem;
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--accent-tertiary);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+}
+
+.certificate-info h3 {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+  color: var(--text-primary);
+}
+
+.certificate-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.certificate-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  transition: var(--transition-fast);
+}
+
+.certificate-link:hover {
+  color: var(--accent-tertiary);
+  gap: var(--space-sm);
+}
+
+/* ===========================
    CONTACT
    =========================== */
 .contact-container {
@@ -864,6 +982,11 @@
 
   /* Projects */
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Certificates */
+  .certificates-grid {
     grid-template-columns: 1fr;
   }
 

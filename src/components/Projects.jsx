@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Mental Health Detection',
     description:
-      'Website deteksi kesehatan mental menggunakan algoritma SVM dan Naive Bayes. Dibangun dengan Flask dan machine learning model.',
+      'A mental health detection website using SVM and Naive Bayes algorithms. Built with Flask and machine learning models.',
     tags: ['Python', 'Flask', 'SVM', 'Naive Bayes'],
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
     emoji: '🧠',
@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Acacia Water',
     description:
-      'Website untuk penjualan dan pembelian air dan gas di toko Acacia Water.',
+      'Website for selling and purchasing water and gas at Acacia Water stores.',
     tags: ['React', 'TypeScript', 'Supabase'],
     gradient: 'linear-gradient(135deg, #ec4899, #f43f5e)',
     emoji: '🛒',
@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Website Bunga Indah',
     description:
-      'Website untuk penjualan dan pembelian bunga di toko Bunga Indah.',
+      'Website for selling and purchasing flowers at the Bunga Indah shop',
     tags: ['PHP', 'MySQL', 'Bootstrap'],
     gradient: 'linear-gradient(135deg, #22d3ee, #06b6d4)',
     emoji: '💐',
@@ -33,7 +33,7 @@ const projects = [
   {
     title: 'Portfolio Website',
     description:
-      'Website portofolio personal yang interaktif dan responsif dengan animasi modern dan dark theme.',
+      'Personal portfolio website',
     tags: ['React', 'Framer Motion', 'Vite', 'CSS3'],
     gradient: 'linear-gradient(135deg, #f59e0b, #f97316)',
     emoji: '🚀',
@@ -43,7 +43,7 @@ const projects = [
   {
     title: 'Design UI/UX Jacoffee',
     description:
-      'Merancang tampilan antarmuka (UI) dan pengalaman pengguna (UX) untuk toko kopi Jacoffee dengan menggunakan Figma.',
+      'Designing the user interface (UI) and user experience (UX) for Jacoffee coffee shop',
     tags: ['Figma'],
     gradient: 'linear-gradient(135deg, #36291341, #21160b99)',
     emoji: '🎨',

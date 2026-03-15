@@ -3,9 +3,9 @@ import { FiMapPin, FiBook, FiUser, FiStar } from 'react-icons/fi';
 import fotoImg from '../assets/r1.jpeg';
 
 const infoItems = [
-  { icon: <FiUser />, label: 'Nama', value: 'Rafa Rezandrya Jaelani' },
-  { icon: <FiBook />, label: 'Jurusan', value: 'Sistem Informasi' },
-  { icon: <FiMapPin />, label: 'Domisili', value: 'Bekasi, Indonesia' },
+  { icon: <FiUser />, label: 'Name', value: 'Rafa Rezandrya Jaelani' },
+  { icon: <FiBook />, label: 'Major', value: 'Information Systems' },
+  { icon: <FiMapPin />, label: 'Location', value: 'Bekasi, Indonesia' },
   { icon: <FiStar />, label: 'GPA', value: '3.72 / 4.00' },
 ];
 
@@ -66,15 +66,13 @@ function About() {
             A Passionate <span className="gradient-text">Frontend Developer</span>
           </h3>
           <p>
-            Saya Rafa Rezandrya Jaelani, mahasiswa semester akhir jurusan Sistem Informasi
-            di Universitas Gunadarma. Saya memiliki passion yang kuat di bidang pengembangan
-            web, khususnya frontend development. Saya terampil dalam membangun website yang
-            interaktif, responsif, dan memiliki UI/UX yang menarik.
+            My name is Rafa Rezandrya Jaelani, a final-semester Information Systems student at Gunadarma University. 
+            I have a strong passion for web development, particularly front-end development. 
+            I am skilled at building interactive, responsive websites with compelling UI/UX.
           </p>
           <p>
-            Saya terus belajar dan mengembangkan kemampuan saya dalam teknologi web modern
-            seperti React, JavaScript, dan berbagai tools pengembangan lainnya. Saya siap
-            untuk berkontribusi dan belajar lebih banyak di dunia industri.
+            I continue to learn and develop my skills in modern web technologies and various development tools. 
+            I am ready to contribute and learn more in the industry.
           </p>
 
           <div className="about-info-grid">

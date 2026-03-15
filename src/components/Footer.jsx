@@ -6,6 +6,7 @@ const quickLinks = [
   { to: 'about', label: 'About' },
   { to: 'skills', label: 'Skills' },
   { to: 'projects', label: 'Projects' },
+  { to: 'certificates', label: 'Certificates' },
   { to: 'contact', label: 'Contact' },
 ];
 
@@ -24,7 +25,8 @@ function Footer() {
         <div className="footer-brand">
           <div className="footer-logo">{'<Rafareza />'}</div>
           <p>
-            Seorang mahasiswa semester akhir jurusan Sistem Informasi Universitas Gunadarma yang memiliki ketertarikan pada pengembangan web dan teknologi.
+            A final semester student majoring in Information Systems at Gunadarma University 
+            who has an interest in web development and technology.
           </p>
         </div>
 
@@ -45,9 +47,9 @@ function Footer() {
 
         <div className="footer-links">
           <h4>Contact</h4>
-          <a href="mailto:rafarezandrya@gmail.com">rafarezandrya@gmail.com</a>
+          <a href="mailto:rafa.rezandrya08@gmail.com">rafa.rezandrya@gmail.com</a>
           <a>Bekasi, Indonesia</a>
-          <a>Universitas Gunadarma</a>
+          <a>Gunadarma University</a>
         </div>
       </div>
 

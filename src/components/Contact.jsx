@@ -91,8 +91,8 @@ function Contact() {
             Let's Build Something <span className="gradient-text">Amazing</span>
           </h3>
           <p>
-            Saya selalu terbuka untuk peluang baru, proyek freelance, atau kolaborasi menarik.
-            Jangan ragu untuk menghubungi saya!
+            I'm always open to new opportunities, freelance projects, or interesting collaborations. 
+            Don't hesitate to contact me!
           </p>
 
           <div className="contact-details">
