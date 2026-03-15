@@ -98,7 +98,7 @@ function Hero() {
               View My Work <FiArrowDown />
             </button>
           </Link>
-          <a href="https://drive.google.com/file/d/1sclLaK5Yb3wz-ByU4UM3yqCsUX90wfDK/view" className="btn-outline" target="_blank">
+          <a href="https://drive.google.com/file/d/1SQR43RgAO0M3AYoM7d6cjFhecVRrn9bg/view?usp=sharing" className="btn-outline" target="_blank">
             <FiDownload /> My CV
           </a>
         </motion.div>
