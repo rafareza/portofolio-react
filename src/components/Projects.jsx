@@ -9,7 +9,7 @@ const projects = [
     tags: ['Python', 'Flask', 'SVM', 'Naive Bayes'],
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
     emoji: '🧠',
-    github: '#',
+    github: 'https://github.com/rafareza/mental-health',
   },
   {
     title: 'Acacia Water',
